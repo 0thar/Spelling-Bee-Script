@@ -1,8 +1,6 @@
+# Run with `python PuzzleSolver.py`
+
 import twl
-import re
-file = open("/usr/share/dict/words", "r")
-words = re.sub("[^\w]", " ",  file.read()).split()
-file.close()
 
 letter_list = []
 
